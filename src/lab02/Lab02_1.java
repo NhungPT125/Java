@@ -5,14 +5,14 @@ import java.util.concurrent.SynchronousQueue;
 
 public class Lab02_1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);System.out.println("Please enter your weight (kg): ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter your weight (kg): ");
         float inputWeight = scanner.nextFloat();
 
         System.out.println("Please enter your height (m): ");
         float inputHeight = scanner.nextFloat();
 
         Float BMI = inputWeight / (inputHeight * 2);
-
 
         System.out.printf("Your weight is: %.2f\n ", inputWeight);
         System.out.printf("Your height is: %.2f\n ",inputHeight);
